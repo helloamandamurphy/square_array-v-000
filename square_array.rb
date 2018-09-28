@@ -1,4 +1,4 @@
-def square_array(array)
+def square_array(root_array)
 root_array = [] 
 squared_array = []
 root_array.each do |root|
