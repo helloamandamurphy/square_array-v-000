@@ -21,7 +21,7 @@ def square_array
 end
 
 def square_array(array)
-array_one = [] #you are calling this the same as the method name
+array_one = [] 
 array.each do |element|
   square_array << (element**2) 
 end
