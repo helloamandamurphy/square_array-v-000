@@ -10,20 +10,12 @@
 #end
 #end
 
-def square_array
-  numbers = []
-  square_array(numbers)
-  new_numbers = []
-  array.each do |roots|
-    new_numbers.push(roots**2)
-  end
-  square_array(new_numbers)
-end
+
 
 def square_array(array)
 array_one = [] 
 array.each do |element|
   square_array << (element**2) 
 end
-#you also need to return the new array here
+square_array
 end
