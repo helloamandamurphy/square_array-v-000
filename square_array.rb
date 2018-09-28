@@ -12,11 +12,11 @@
 
 
 
-def square_array
-array_one = [] 
-array_two = []
-array.each do |element|
-  array_two << (element**2) 
+def square_array(array)
+root_array = [] 
+squared_array = []
+array.each do |root|
+  squared_array << (root**2) 
 end
-array_two
+squared_array
 end
