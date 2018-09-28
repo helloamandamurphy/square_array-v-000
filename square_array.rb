@@ -12,7 +12,7 @@
 
 
 
-def square_array(array)
+def square_array
 array_one = [] 
 array_two = []
 array.each do |element|
