@@ -14,8 +14,9 @@
 
 def square_array(array)
 array_one = [] 
+array_two = []
 array.each do |element|
-  square_array << (element**2) 
+  array_two << (element**2) 
 end
-square_array
+array_two
 end
